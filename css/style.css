@@ -1,0 +1,40 @@
+.fd-debug{
+    border: 1px solid red;
+}
+
+:root {
+	--color-bg-main: #b91547;
+	--color-bg-passenger: #757575;
+}
+
+body {
+    background-color: black;
+}
+
+.box{
+    width: 1000px;
+    height: 500px;
+    border: 1px solid red;
+    margin: 30px auto;
+    background-color: var(--color-bg-main);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.container-small {
+    width: 700px;
+    margin: 0 auto;
+
+}
+
+.title-ticket {
+    width: 100%;
+
+}
+
+button {
+    border: 1px solid black;
+    color: red;
+    font-weight: bold;
+}
