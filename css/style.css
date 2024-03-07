@@ -17,24 +17,102 @@ body {
     border: 1px solid red;
     margin: 30px auto;
     background-color: var(--color-bg-main);
-    display: flex;
-    align-content: center;
-    justify-content: center;
 }
 
 .container-small {
     width: 700px;
     margin: 0 auto;
-
+    text-align: center;
 }
 
 .title-ticket {
     width: 100%;
+}
 
+h1 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: var(--color-bg-main);
+    font-weight: lighter;
 }
 
 button {
     border: 1px solid black;
-    color: red;
+    color: var(--color-bg-main);
     font-weight: bold;
 }
+
+.card-top {
+    background-color: white;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.card-bottom {
+    background-color: white;
+    border-radius: 5px;
+    width: 700px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.container-input {
+    display: flex;
+    justify-content: space-around;
+}
+
+.input-rectangle {
+    width: 150px;
+    height: 18px;
+    border-radius: 15px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.form-select {
+    width: 150px;
+    height: 22px;
+    border-radius: 15px;
+    border: 1px solid red;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.btn-new {
+    color: red;
+    width: 100px;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-new:hover {
+    border: 1px solid orange;
+}
+
+.tab-left {
+    width: 30%;
+}
+
+.tab-right {
+    width: 70%;
+}
+
+.disappear {
+    /* display: none; */
+}
+
+.display-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
