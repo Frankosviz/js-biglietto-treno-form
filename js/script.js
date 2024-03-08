@@ -19,8 +19,6 @@ console.log(elButton);
 
       let prezzoKm = 0.21;
 
-      console.log(prezzo);
-
       let costoBiglietto = prezzoKm * kilometer;
 
       let offerta = 'Biglietto Standard';
@@ -33,55 +31,10 @@ console.log(elButton);
         offerta = 'Sconto Silver';
       }
 
-      const
+      document.getElementById('userName').innerHTML = name;
+      document.getElementById('offerta').innerHTML = offerta;
+      document.getElementById('finalPrice').innerHTML = costoBiglietto;
     }
   );
 
-//      console.log(older);
-
-//      let finalPrice = price;
-
-//      console.log(finalPrice);
-
-// }) 
-
-// if (age === minorAge.value){
-    
-//     document.getElementById("userName").innerHTML = `${nameSurname}`;
-//     document.getElementById("offert").innerHTML = `Offerta economy`;
-//     document.getElementById("finalPrice").innerHTML = `${((price - (price * 20) / 100).toFixed(2))}€`;
-
-// } else if (age === mag65.value){
-    
-//     document.getElementById("userName").innerHTML = `${nameSurname}`;
-//     document.getElementById("offert").innerHTML = `Offerta prime`;
-//     document.getElementById("finalPrice").innerHTML = `${((price - (price * 40) / 100).toFixed(2))}€`;
-// }
-
-// if (ageMinor === true){
-    
-//        document.getElementById("userName").innerHTML = `${nameSurname}`;
-//        document.getElementById("offert").innerHTML = `Offerta economy`;
-//        document.getElementById("finalPrice").innerHTML = `${((price - (price * 20) / 100).toFixed(2))}€`;
-
-// console.log(nameSurname);
-
-// let elKilometers =  
-
-// console.log(elKilometers);
-
-// let age = document.getElementById('age');
-
-// console.log(age);
-
-// let ageMinor = document.getElementById('minor');
-
-// console.log(ageMinor);
-
-// let ageMajor = document.getElementById('major');
-
-// console.log(ageMajor);
-
-// let price = parseInt(0.21 * elKilometers);
-
-// console.log(price);
+  let elButtonCancel 
