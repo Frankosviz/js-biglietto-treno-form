@@ -115,4 +115,34 @@ button {
     width: 100%;
 }
 
+.fran-table{
+    border: 1px solid black;
+    width: 650px;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    top: 25px;
+    left: 0px;
+    border-right: none;
+}
+
+.table-width {
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.bg-gray {
+    background-color: #757575;
+}
+
+th {
+    height: 50%;
+}
+
+td {
+    height: 50%;
+}
+
 

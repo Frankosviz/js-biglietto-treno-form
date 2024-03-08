@@ -28,61 +28,57 @@
                     <div>
                         <h3>Km da Percorrere</h3>
                         <div>
-                            <input class="input-rectangle" type="text" name="" id="kilometer">
+                            <input class="input-rectangle" type="text" name="" id="elKilometers">
                         </div>
                     </div>
                     <div>
                         <h3>Fascia d'età</h3>
-                        <select class="form-select input-rectangle" aria-label="Default select example" id="age" >
+                        <select class="form-select input-rectangle" aria-label="Default select example" id="age">
                             <!-- <option selected>Scegli l'età</option> -->
-                            <option value="1">Meno di 18 anni</option>
-                            <option value="2">Tra i 18 e i 65 anni</option>
-                            <option value="3">Più di 65 anni</option>
+                            <option value="minorenne" id="minor">Minorenne</option>
+                            <option value="maggiorenne" id="major">Over 65</option>
                         </select>
                     </div>
                 </div>
                 <div
                     class="container-fluid container-small d-flex justify-content-center align-content-center margin-top">
                     <button type="button" class="btn btn-secondary btn-new fw-bold ">Genera</button>
-                    <button type="button" class="btn btn-secondary btn-new fw-bold ">Annulla</button>
+                    <button type="button" id="elButtonCancel"
+                        class="btn btn-secondary btn-new fw-bold ">Annulla</button>
                 </div>
             </div>
 
 
 
-            <!-- <div class="disappear container-fluid ">
+            <div class="disappear container-fluid ">
                 <div class="container-small">
                     <h1>Il tuo biglietto</h1>
                 </div class="display-flex ">
                 <div class="card-bottom">
-                    <div class="d-flex gap-2 ">
-                        <div class="tab-left ">
-                            <h3>NOME PASSEGGERO</h3>
-                            <p>John Snow</p>
-                        </div>
-                        <div class="tab-right ">
-                            <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">#</th>
-                                    <th scope="col">First</th>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <th scope="row">1</th>
-                                    <td>Mark</td>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                  </tr>
-                                </tbody>
-                            </table>
-                        </div>
+                    <div class="fran-table">
+                        <table class="table table-width">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="fw-bold ">Nome Passeggero</th>
+                                    <th scope="col" class="fw-bold ">Offerta</th>
+                                    <th scope="col" class="fw-bold ">Carrozza</th>
+                                    <th scope="col" class="fw-bold ">Codice</th>
+                                    <th scope="col" class="fw-bold ">Costo Biglietto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td id="userName"></td>
+                                    <td id="offert"></td>
+                                    <td>8</td>
+                                    <td>828347</td>
+                                    <td id="finalPrice"></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </div>
 
 
