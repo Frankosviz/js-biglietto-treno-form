@@ -37,4 +37,12 @@ console.log(elButton);
     }
   );
 
-  let elButtonCancel 
+  let elButtonCancel = document.getElementById('elButtonCancel');
+
+  elButtonCancel.addEventListener('click' , function(){
+      
+
+      document.getElementById('userName').innerHTML = '';
+      document.getElementById('offerta').innerHTML = '';
+      document.getElementById('finalPrice').innerHTML = '';
+  })
